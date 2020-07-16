@@ -1,8 +1,8 @@
-%% Salary Problem
+% Salary Problem
 clear all
 clc
 
-%% Split the data
+% Split the data
 data = csvread('Salary_Data.csv',1,0);
 
 cv = cvpartition(size(data,1),'HoldOut',0.4);
